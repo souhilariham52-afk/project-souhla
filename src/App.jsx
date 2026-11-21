@@ -1,13 +1,10 @@
-import { useState } from "react";
-import heroImg from "./assets/hero.png";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "./assets/vite.svg";
-import "./App.css";
-
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <></>;
+  return (
+    <main className="store-shell">
+      <h1>Craft &amp; Oak Furniture</h1>
+      <p>Furniture made for the shape of everyday life.</p>
+    </main>
+  );
 }
 
 export default App;
